@@ -2,22 +2,22 @@
 
 前端脚手架
 
+### 添加模板
 ```bash
-# 添加模板
 wu-cli add
 ```
 
+### 删除模板
 ```bash
-# 删除模板
 wu-cli delete
 ```
 
+### 查看模板列表
 ```bash
-# 查看模板列表
 wu-cli list
 ```
 
+### 初始化项目
 ```bash
-# 初始化项目
 wu-cli inti [templateName] [projectName]
 ```
