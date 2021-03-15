@@ -1,0 +1,33 @@
+{
+  "name": "wu-cli",
+  "version": "1.0.0",
+  "description": "前端脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wu-cli": "bin/main.js",
+    "wu-cli-add": "bin/add.js",
+    "wu-cli-delete": "bin/delete.js",
+    "wu-cli-list": "bin/list.js",
+    "wu-cli-init": "bin/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mglwu/wu-cli.git"
+  },
+  "author": "wuqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mglwu/wu-cli/issues"
+  },
+  "homepage": "https://github.com/mglwu/wu-cli#readme",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^7.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.0.0",
+    "ora": "^5.3.0"
+  }
+}
